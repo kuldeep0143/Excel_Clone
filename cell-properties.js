@@ -7,27 +7,6 @@ let sheetDB = [];
     addSheetBtn.click();
 }
 
-// for (let i = 0; i < rows; i++) {
-//     let sheetRow = [];
-//     for (let j = 0; j < cols; j++) {
-//         let cellProp = {
-//             bold: false,
-//             italic: false,
-//             underline: false,
-//             alignment: "left",
-//             fontFamily: "monospace",
-//             fontSize: "14",
-//             fontColor: "#000000",
-//             BGcolor: "#000000",  // Just for indication purpose,
-//             value: "",
-//             formula: "",
-//             children: [],
-//         }
-//         sheetRow.push(cellProp);
-//     }
-//     sheetDB.push(sheetRow);
-// }
-
 
 // Selectors for cell properties
 let bold = document.querySelector(".bold");
